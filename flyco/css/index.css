@@ -1,0 +1,99 @@
+.hot-sale {
+    background: #f6f6f6;
+    padding: 0 11px;
+}
+.hot-sale .title {
+    height: 77px;
+    line-height: 77px;
+    font-size: 22px;
+    color: #000;
+}
+.shaver li {
+    float: left;
+    height: 332px;
+}
+.shaver li:nth-of-type(1){
+    width: 600px;
+    height: 296px;
+    padding-top: 24px;
+    border: 6px solid #fff;
+    background: #effbff;
+}
+.shaver li:nth-of-type(2){
+    margin: 0 16px;
+}
+.shaver li:nth-of-type(1) .detail {
+    width: 348px;
+    height: 90px;
+    text-align: center;
+    float: left;
+}
+.shaver li:nth-of-type(1) p.name {
+    font-size: 24px;
+    color: #000;
+    font-weight: bold;
+    height: 33px;
+    line-height: 33px;
+}
+.shaver li:nth-of-type(1) p.property {
+    font-size: 11px;
+    color: #b4b5b5;
+    height: 19px;
+    line-height: 19px;
+}
+.shaver li:nth-of-type(1) p.price {
+    height: 38px;
+    color: #ff6700;
+    font-size: 18px;
+    font-weight: bold;
+}
+.shaver li:nth-of-type(1) .delete-price {
+    margin-left: 9px;
+    font-size: 11px;
+    color: #d0d2d2;
+}
+.shaver li:nth-of-type(1) img {
+    float: left;
+    margin: 20px 0 0 62px;
+}
+.shaver li:nth-of-type(1):hover ,
+.shaver li:nth-of-type(2):hover,
+.shaver li:nth-of-type(3):hover {
+    margin-top: -5px;
+    box-shadow: 2px 2px 49px 3px #ccc;
+    cursor: pointer;
+}
+.shaver li:nth-of-type(2),
+.shaver li:nth-of-type(3) {
+    width: 274px;
+    height: 332px;
+    padding-left: 24px;
+    background: #fff;
+}
+.shaver li:nth-of-type(2) p.name,
+.shaver li:nth-of-type(3) p.name {
+    height: 32px;
+    line-height: 32px;
+    font-size: 12px;
+    color: #000;
+}
+.shaver li:nth-of-type(2) p.sale-volume,
+.shaver li:nth-of-type(3) p.sale-volume {
+    height: 25px;
+    line-height: 25px;
+    font-size: 11px;
+    color: #b0b0b0;
+}
+.shaver li:nth-of-type(2) p.price,
+.shaver li:nth-of-type(3) p.price {
+    height: 26px;
+    line-height: 26px;
+    font-size: 12px;
+    color: #333;
+}
+img[alt="FS808"] {
+    margin-left: 78px;
+}
+img[alt="FS373"] {
+    margin-left: 85px;
+}

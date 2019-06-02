@@ -1,0 +1,27 @@
+html,body,div,p,h1,h2,h3,h4,h5,h6,p,span,i,b,strong,em,img,ul,dl,ol,dt,dd,li,a,
+button,input {
+    margin: 0;
+    padding: 0;
+}
+input,img{
+    border: none;
+    outline: none;
+}
+h1,h2,h3,h4,h5,h6,i,b,strong,em {
+    font-style: normal;
+    font-weight: normal;
+}
+ul li,ol li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.clearfix:after {
+    content: ".";
+    clear: both;
+    display: block;
+    height: 0;
+    font-size: 0;
+    overflow: hidden;
+}

@@ -1,0 +1,244 @@
+.wrap {
+    background: #f5f5f5;
+}
+.title {
+    height: 40px;
+    line-height: 40px;
+    padding-left: 12px;
+    font-size: 12px;
+}
+.title a {
+    color: #000;
+}
+.product {
+    height: 583px;
+    background: #fff;
+    border-bottom: 1px solid #e0e0e0;
+    padding: 35px 0 0 45px;
+    position: relative;
+}
+.pro-img {
+    width: 374px;
+    float: left;
+    height: 436px;
+    border: 1px solid #e0e0e0;
+    padding: 7px;
+}
+.pro-img dt {
+    margin-bottom: 7px;
+    width: 374px;
+    height: 368px;
+    position: relative;
+    display: block;
+}
+.pro-img dt img {
+    width: 374px;
+    height: 368px;
+    display: block;
+}
+.pro-img dd {
+    float: left;
+    margin: 0 4px 0 0 ;
+    width: 58px;
+    height: 58px;
+    border: 1px solid #dad7d7;
+    cursor: pointer;
+}
+.pro-img dd img {
+    width: 58px;
+    height: 58px;
+}
+.pro-img dd:hover {
+    border: 1px solid #1f6bc3;
+}
+.pro-img .lt,
+.pro-img .gt {
+    width: 22px;
+    border: none;
+}
+.pro-img .lt:hover,
+.pro-img .gt:hover {
+    border: none;
+}
+.pro-img .lt {
+    background: url(../images/prev.png) no-repeat;
+    background-position: left center;
+}
+.pro-img .gt {
+    margin: 0;
+    background: url(../images/slidenext.png) no-repeat;
+    background-position: right center;
+}
+.product .detail-img {
+    width: 320px;
+    height: 280px;
+    border: 1px solid #ccc;
+    position: absolute;
+    left: 437px;
+    top: 45px;
+    display: none;
+    overflow: hidden;
+}
+.product .detail-img img {
+    position: absolute;
+    left: 0;
+    top: 0 ;
+}
+.pro-img dt .magnifying {
+    position: absolute;
+    width: 148px;
+    height: 129px;
+    background: #fff;
+    opacity: 0.6;
+    display: none;
+}
+.product .detail {
+    float: left;
+    margin-left: 110px;
+    width: 711px;
+}
+.detail .info {
+    height: 87px;
+    padding-bottom: 13px;
+    border-bottom: 1px dotted #ccc;
+}
+.detail .info h2 {
+    font-size: 22px;
+    height: 22px;
+    line-height: 22px;
+    color: #000;
+    margin-bottom: 18px;
+}
+.detail .info p {
+    font-size: 11px;
+    color: #818181;
+}
+.detail .price {
+    height: 57px;
+    border-bottom: 1px dotted #ccc;
+    font-size: 11px;
+    color: #818181;
+    padding: 19px 0 8px 0;
+}
+.detail .price p {
+    line-height: 21px;
+}
+.detail .price b {
+    font-size: 23px;
+    color: #ff7c44;
+}
+.sale p {
+    font-size: 11px;
+    color: #818181;
+}
+.detail .sale .estimate {
+    height: 39px;
+    line-height: 39px;
+}
+.detail .sale .sales {
+    height: 17px;
+    line-height: 17px;
+    margin-bottom: 17px;
+}
+.buy-count {
+    height: 51px;
+    line-height: 51px;
+}
+.buy-join {
+    height: 48px;
+    line-height: 48px;
+}
+.buy-join a {
+    display: inline-block;
+    width: 141px;
+    font-size: 17px;
+    color: #fff;
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+    margin-right: 10px;
+}
+.buy-join .buy {
+    background: #df7141;
+}
+.buy-join .join {
+    background: #2264af;
+}
+.send-free {
+    height: 58px;
+    line-height: 58px;
+}
+.buy-count span,
+.number {
+    height: 25px;
+    line-height: 25px;
+    display: inline-block;
+    border: 1px solid #ddd;
+    margin-right: 2px;
+    text-align: center;
+}
+.minus {
+    margin-left: 25px;
+    width: 23px;
+}
+.number {
+    width: 48px;
+}
+.buy-count .add {
+    width: 23px;
+    margin-right: 19px;
+}
+.minus:hover,
+.add:hover {
+    cursor: pointer;
+}
+.sale .send-free {
+    font-size: 12px;
+    color: #000;
+    padding-left: 16px;
+    background: url(../images/QQ20190527201632_03.png) no-repeat;
+    background-position: left center;
+}
+.sale p:last-of-type {
+    line-height: 16px;
+    height: 16px;
+    position: relative;
+}
+.collect {
+    display: inline-block;
+    padding-left: 20px;
+    background: url(../images/QQ20190527201632_16.png) no-repeat;
+    background-position: left center;
+    margin-right: 41px;
+}
+.sale p:last-of-type a,
+.sale p:last-of-type {
+    font-size: 12px;
+    color: #000;
+}
+.sale p:last-of-type i,
+.weibo,.tenbo,.zone {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-right: 4px;
+    position: absolute;
+    top: 0;
+}
+.sale p:last-of-type i {
+    background: url(../images/QQ20190527201632_07.png) no-repeat;
+    cursor: pointer;
+    left: 100px;
+}
+.weibo {
+    background: url(../images/QQ20190527201632_09.png) no-repeat;
+    left: 172px;
+}
+.tenbo {
+    background: url(../images/QQ20190527201632_11.png) no-repeat;
+    left: 193px;
+}
+.zone {
+    background: url(../images/QQ20190527201632_13.png) no-repeat;
+    left: 214px;
+}
