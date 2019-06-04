@@ -189,6 +189,7 @@ text-align: center}
     text-align: center;
     font-size: 24px;
 }
+.reg_form{height: 307px;}
 .txt_z{    width: 320px;
     margin-top: 38px}
 .lie{    width: 318px;
@@ -218,7 +219,7 @@ text-align: center}
     width: 139px;
 }
 .yan_shu{    
-    width: 100px;
+    width: 106px;
     height: 30px;
     line-height: 30px;
     display: block;
@@ -253,7 +254,6 @@ h3{   widows: 31px;
     text-align: center;
     font-family: "Microsoft Yahei", sans-serif;
     font-size: 14px;
-    background-color: pink
 }
 .btn_w{
     width: 320px;
