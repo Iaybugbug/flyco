@@ -1,0 +1,451 @@
+@charset "utf-8";
+
+/* CSS reset */
+html,
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+input,
+textarea,
+p,
+blockquote,
+th,
+td {
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.clear {
+    clear: both;
+}
+
+fieldset,
+img {
+    border: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+strong,
+th,
+var,
+b {
+    font-style: normal;
+    font-weight: normal;
+}
+
+ol li,
+ul li {
+    list-style: none;
+}
+
+caption {
+    text-align: left;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 100%;
+    font-weight: normal;
+}
+/* .pr {
+    position: relative;
+} */
+q:before,
+q:after {
+    content: '';
+}
+
+abbr,
+acronym {
+    border: 0;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+.bc {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* header_kop */
+.header_top {
+    height: 35px;
+    line-height: 35px;
+    border-bottom: 1px solid #dfdfdf;
+    background-color: #fafafa;
+    color: #a5a5a5;
+}
+
+.head_con {
+    width: 1240px;
+    height: 35px;
+    margin: auto
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+.ul_l {
+    float: left;
+}
+
+.ul_l li {
+    float: left;
+    margin-right: 10px;
+}
+.lu_r {
+    float: right;
+}
+
+.lu_r li {
+    float: right;
+}
+.lu_r li a {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.header_top a {
+    color: #a5a5a5;
+}
+.con {
+    width: 1240px;
+    height: 650px;
+    position: relative;
+
+}
+.reg_wapper {
+    width: 452px;
+    padding: 83px 0 165px;
+    height: 650px;
+
+}
+
+.con_biao {
+    color: #0c82d9;
+    text-align: center;
+    font-size: 20px;
+    height: 18px;
+    margin-bottom: 20px;
+}
+
+.land {
+
+    zoom: 1;
+    font-family: "Microsoft Yahei", sans-serif;
+    font-size: 16px;
+    height: 42px;
+}
+
+.land_l {
+    background-color: #ccc;
+    width: 226px;
+    height: 42px;
+    line-height: 42px;
+    /* background-color: #ccc; */
+    color: #fff;
+    display: inline;
+    display: inline-block;
+    float: left;
+    text-align: center;
+}
+.land_r{
+    /* background-color: #2264af; */
+    width: 226px;
+    height: 42px;
+    line-height: 42px;
+    background-color: #ccc;
+    color: #fff;
+    display: inline;
+    display: inline-block;
+    float: right;
+    text-align: center;
+}
+.clo{
+    background-color: #2264af; 
+}
+
+.blank{display: block}
+/* 登陆输入 */
+.text_nr{
+    width: 300px;
+    margin-top: 20px;
+    zoom: 1;
+    font-size: 16px;
+    /* background-color: yellow; */
+    /* height: 110px; */
+}
+.text_form{
+
+    width: 300px;
+}
+form{display: none}
+.con_text{
+    width: 300px;
+    margin-top: 38px;
+}
+.con_text li{   width: 298px;
+        height: 30px;
+        line-height: 30px;
+        border: 1px solid #e7e7e7;
+        /* margin-bottom: 23px; */
+    /* overflow: hidden; */
+}
+input{height: 30px;width: 263px;float: left;
+border: none;    outline: none;}
+ 
+.in_b{left: 0px;
+    top: 0px;
+    width: 30px;
+    height: 30px;
+    border-right: 1px solid #e6e6e6;
+    background-size: 50%;
+    display: block;
+    float: left;
+    text-align: center ;
+}
+h2{
+    left: 0;
+    top: 30px;
+    height: 20px;
+    padding-left: 20px;
+    line-height: 20px;
+}
+/* .txt_f1{
+    padding-left: 40px;
+    width: 258px;
+    height: 30px;
+    line-height: 30px;
+    border: 0;
+} */
+
+/* 输入手机验证 */
+.shou{
+    width: 300px;
+    height: 142px;
+
+    margin-bottom: 30px
+    
+}
+.dong_yan{    cursor: pointer;
+    width: 108px;
+    height: 30px;
+    line-height: 30px;
+    border: 0;
+    background-color: #ccc;
+    color: #999;
+    float: left;
+    display: inline;
+}
+.other{
+    /* margin-top: 100px; */
+    width: 300px;
+    height: 160px;
+    /* background-color: green; */
+    /* position:absolute ; */
+
+}
+.shou_text li{
+    width: 298px;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #e7e7e7;
+    /* margin-bottom: 23px; */
+    /* background-color: pink */
+}
+.yanshu{
+    width: 107px;
+    height: 30px;
+    line-height: 30px;
+    display: block;
+    margin-left: 0px;
+    border-left: 1px solid #e7e7e7;
+    float: left;
+}
+.put{
+    width: 159px;
+}
+.number{
+    cursor: pointer;
+    width: 60px;
+    height: 20px;
+    margin-top: 5px;
+    margin-left: 0px;
+    line-height: 25px;
+    display: inline;
+    border-right: 1px solid #e7e7e7;
+}
+}
+/* 按钮 */
+.btn{
+    width: 300px;
+    /* height: 40px; */
+}
+.btn input{
+    width: 300px;
+    height: 39px;
+    line-height: 39px;
+    border: 0;
+    margin-bottom: 10px;
+    background-color: #0c82d9;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    /* margin-top: 10px; */
+    border: none
+}
+.zi{width: 292px;height: 30px;
+position: relative;top: 36px;
+/* left: 80px; */
+padding-top: 10px}
+.ji_wpd{
+    width: 160px;
+    height: 30px;
+    float: left;zoom: 1;
+    font-size: 13px;
+    position: absolute
+}
+.ji_wpd span{
+    float: left;
+    display: inline;
+    padding-left: 1px;
+}
+.ji_wpd span input{
+    height: 13px;
+    width: 13px;
+    float: left;
+}
+.zhuce{
+   float: right;
+   width: 130px;
+   margin: auto;
+   zoom: 1;
+   font-size: 13px;
+   position: absolute;
+   left: 165px;
+}
+.zhuce span{
+    float: right;
+}
+.toget{
+    margin-top: 25px;
+}
+.quick_login_tit {
+    border-top: 1px solid #e0e0e0;
+    padding-top: 10px;
+}
+fieldset, img {
+    border: 0;
+}
+fieldset {
+    display: block;
+    margin-inline-start: 2px;
+    margin-inline-end: 2px;
+    padding-block-start: 0.35em;
+    padding-inline-start: 0.75em;
+    padding-inline-end: 0.75em;
+    padding-block-end: 0.625em;
+    min-inline-size: min-content;
+    border-width: 2px;
+    /* border-style: groove; */
+    border-color: threedface;
+    border-image: initial;
+}
+.quick_login_txt {
+    font-size: 14px;
+    color: #b0b0b0;
+    padding: 0 25px;
+    margin: 0 auto;
+}
+legend {
+    display: block;
+    padding-inline-start: 2px;
+    padding-inline-end: 2px;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+}
+.lian{
+    width: 240px;
+    height: 32px;
+    position: absolute;
+    /* left: 500px;
+    top: 430px; */
+}
+.wei{
+    float: left;
+    padding: 0 20px 10px 0;
+}
+.wei a{
+    display: block;
+    width: 32px;
+    height: 32px;
+   
+    text-align: center;
+    
+}
+.wei a span {
+    font-size: 32px;
+    line-height: 32px;
+}
+.qq{
+    float: left;
+    padding: 0 20px 10px 0;
+}
+.qq a{
+    display: block;
+    width: 32px;
+    height: 32px;
+    font-size: 32px;
+    text-align: center;
+    line-height: 20px
+}
+.qq a span{
+    font-size: 32px;
+    line-height: 32px;
+}
