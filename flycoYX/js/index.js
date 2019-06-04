@@ -1,5 +1,15 @@
 // $(function(){
-    //头部购物车
+  // .weixin .pic:hover{
+  //   display: block;
+  // }
+  //图片显示
+  $(".weixin").on('focus',function(){
+   $(".pic")[0].style.block = block;
+  }).on('blur',function(){
+    $(".pic")[0].style.block = none;
+  })
+  
+  //头部购物车
     $(".cart-section").on('mouseenter',function(){
         $(this).children("div").show().css({"background":"#fff","color":'blue'});
     })
@@ -50,10 +60,10 @@
     })
 
     var index = 0;
-    var timer = setInterval(autoPlay,1000);
+    var timer = setInterval(autoPlay,2500);
     function autoPlay(){
       index++;
-      $("#box > li").eq(index).fadeIn(500).siblings().fadeOut(500);
+      $("#box > li").eq(index).fadeIn(800).siblings().fadeOut(800);
       $("ol > li").eq(index).addClass('current').siblings().removeClass('current');
       //判断下标是否越界
       if(index == $("#box > li").length - 1){
@@ -64,13 +74,24 @@
     $("ol > li").mouseover(function(){
       //鼠标悬浮
       //轮播图不可以在走动，清除定时器
+      // clearInterval(timer);
       clearInterval(timer);
       //获取当前所在的索引
       index = $(this).index() -1;
       autoPlay();
     }).mouseout(function(){
-      timer = setInterval(autoPlay,1000);
+      timer = setInterval(autoPlay,2500);
     });
-
+    $("#box> li").mouseover(function(){
+      //鼠标悬浮
+      //轮播图不可以在走动，清除定时器
+      // clearInterval(timer);
+      clearInterval(timer);
+      //获取当前所在的索引
+      index = $(this).index() -1;
+      autoPlay();
+    }).mouseout(function(){
+      timer = setInterval(autoPlay,2500);
+    });
 
 // });
