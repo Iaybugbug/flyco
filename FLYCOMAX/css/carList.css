@@ -1,0 +1,147 @@
+/*网页截图，像素会有误差*/
+.carList {
+    padding: 0 11px;
+}
+.title {
+    height: 52px;
+    line-height: 52px;
+    text-align: center;
+    font-size: 14px;
+    color: #898989;
+    width: 100%;
+}
+.title span {
+    width: 33.33%;
+    float: left;
+    height: 52px;
+    background: #efefef;
+}
+.pro-title {
+    height: 40px;
+    line-height: 40px;
+    background: #fafafa;
+    font-size: 12px;
+    color: #9fa0a0;
+    text-align: center;
+    margin-top: 29px;
+}
+.pro-title li {
+    float: left;
+}
+/*没有商品时样式,间距较大*/
+/*有商品时的样式，间距较小*/
+.carList input {
+    /* margin: 0 37px; */
+    margin: 0 7px;
+}
+.carList .product {
+    padding-left: 30px;
+}
+.carList .price,
+.productList li:nth-of-type(6) {
+    /* width: 188px; */
+    width: 108px;
+}
+.carList .num {
+    width: 290px;
+}
+.carList .count,
+.productList li:nth-of-type(4)
+{
+    /* width: 83px; */
+    padding: 0 27px;
+}
+.carList .edit {
+    width: 52px;
+}
+.carList .price,
+.carList .num,
+.carList .count,
+.carList .edit,
+.productList li:nth-of-type(4),
+.productList li:nth-of-type(6) {
+    float: right;
+    /* width: 190px; */
+}
+.productList li:nth-of-type(2) img{
+    margin: 10px 11px 10px 26px;
+    width: 120px;
+    height: 120px;
+}
+
+.clearList,.checkDelete {
+    font-size: 14px;
+    color: #9fa0a0;
+    width: 94px;
+    height: 61px;
+    line-height: 61px;
+    padding-left: 47px;
+    background: url(../images/QQ20190530203558_03.png) no-repeat;
+    background-position: 18px center;
+    float: left;
+    cursor: pointer;
+}
+.productList {
+    height: 140px;
+    line-height: 140px;
+    text-align: center;
+    border-bottom: 1px solid #dfdfdf;
+}
+.productList li img,
+.productList li,
+.productList li span {
+    float: left;
+}
+span.minus,
+span.add ,
+input.priceNum {
+    height: 28px;
+    line-height: 28px;
+    border: 1px solid #dfdfdf;
+    margin-top: 55px;
+}
+span.minus,
+span.add {
+    width: 28px;
+    background: #fafafa;
+    cursor: pointer;
+}
+span.minus {
+    margin-left: 77px;
+}
+.carList .priceNum {
+    width: 74px;
+    margin: 55px 0 0;
+    text-align: center;
+}
+.productList .delete {
+    cursor: pointer;
+}
+.totalPrice {
+    height: 105px;
+    line-height: 105px;
+    font-size: 13px;
+    color: #727171;
+    text-align: right;
+}
+.totalPrice span b {
+    padding: 0 19px 0 87px;
+}
+.shoppingPay a {
+    text-align: center;
+    line-height: 36px;
+    width: 147px;
+    height: 36px;
+    box-sizing: border-box;
+    float: right;
+    font-size: 13px;
+}
+.pay {
+    background: #ff7c44;
+    color: #fff;
+}
+.shopping {
+    background: #fafafa;
+    border: 1px solid #dcdddd;
+    color: #727171;
+}
