@@ -64,10 +64,10 @@ $(function () {
   })
 
   var index = 0;
-  var timer = setInterval(autoPlay, 2500);
+  var timer = setInterval(autoPlay, 1500);
   function autoPlay() {
     index++;
-    $("#box > li").eq(index).fadeIn(800).siblings().fadeOut(800);
+    $("#box > li").eq(index).fadeIn(500).siblings().fadeOut(500);
     $("ol > li").eq(index).addClass('current').siblings().removeClass('current');
     //判断下标是否越界
     if (index == $("#box > li").length - 1) {
@@ -84,7 +84,7 @@ $(function () {
     index = $(this).index() - 1;
     autoPlay();
   }).mouseout(function () {
-    timer = setInterval(autoPlay, 2500);
+    timer = setInterval(autoPlay, 1500);
   });
   $("#box> li").mouseover(function () {
     //鼠标悬浮
@@ -95,7 +95,7 @@ $(function () {
     index = $(this).index() - 1;
     autoPlay();
   }).mouseout(function () {
-    timer = setInterval(autoPlay, 2500);
+    timer = setInterval(autoPlay, 1500);
   });
 
 
