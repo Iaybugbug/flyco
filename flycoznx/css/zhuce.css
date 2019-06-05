@@ -1,0 +1,270 @@
+@charset "utf-8";
+
+/* CSS reset */
+html,
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+input,
+textarea,
+p,
+blockquote,
+th,
+td {
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.clear {
+    clear: both;
+}
+
+fieldset,
+img {
+    border: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+strong,
+th,
+var,
+b {
+    font-style: normal;
+    font-weight: normal;
+}
+
+ol li,
+ul li {
+    list-style: none;
+}
+
+caption {
+    text-align: left;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 100%;
+    font-weight: normal;
+}
+/* .pr {
+    position: relative;
+} */
+q:before,
+q:after {
+    content: '';
+}
+
+abbr,
+acronym {
+    border: 0;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+.bc {
+    margin-left: auto;
+    margin-right: auto;
+}
+.pr {
+    position: relative;
+}
+.fl {
+    float: left;
+    display: inline;
+}
+.blank{
+    display: block;
+}
+/* header_kop */
+.header_top {
+    height: 35px;
+    line-height: 35px;
+    border-bottom: 1px solid #dfdfdf;
+    background-color: #fafafa;
+    color: #a5a5a5;
+}
+
+.head_con {
+    width: 1240px;
+    height: 35px;
+    margin: auto
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+.ul_l {
+    float: left;
+}
+
+.ul_l li {
+    float: left;
+    margin-right: 10px;
+}
+.lu_r {
+    float: right;
+    position: relative;
+}
+
+.lu_r li {
+    float: right;
+}
+.lu_r li span{
+    float: left;
+    display: block;
+    position: absolute;
+    left: 50px;
+    top: 1px
+}
+.dong_yan{    cursor: pointer;
+    width: 108px;
+    height: 30px;
+    line-height: 30px;
+    border: 0;
+    background-color: #ccc;
+    color: #999;
+    float: left;
+    display: inline;
+text-align: center}
+.lu_r li a {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.header_top a {
+    color: #a5a5a5;
+}
+.zong{
+    width: 320px;
+    padding: 100px 0;
+    color: #6a6967;
+}
+.log{
+    color: #0c82d9;
+    text-align: center;
+    font-size: 24px;
+}
+.reg_form{height: 307px;}
+.txt_z{    width: 320px;
+    margin-top: 38px}
+.lie{    width: 318px;
+    height: 30px;
+    border: 1px solid #e6e6e6;
+    margin-bottom: 23px;}
+.in_b{
+    display: block;
+    float: left;
+    text-align: center;
+    height:31px ;
+    width: 30px;
+    text-align: center;
+    border-right: 1px solid #e6e6e6;
+    line-height: 30px
+}
+
+.inp_txt{
+    width: 247px;
+    height: 30px;
+    line-height: 30px;
+    border: 0;
+    padding-left: 40px;
+    outline: none;
+}
+.w200{
+    width: 139px;
+}
+.yan_shu{    
+    width: 106px;
+    height: 30px;
+    line-height: 30px;
+    display: block;
+    margin-left: 0px;
+    border-left: 1px solid #e7e7e7;}
+h3{   widows: 31px; 
+    border: none;
+    cursor: pointer;
+    width: 70px;
+    height: 20px;
+    margin-top: 5px;
+    margin-left: 0px;
+    line-height: 25px;
+    display: inline;
+
+    }
+.huan{
+    border-left: 1px solid #e7e7e7;
+    line-height: 32px;
+    margin-top: 0px;
+    float: right;
+    font-weight: bold;
+    color: #0c82d9;
+    line-height: 32px;
+    text-align: center
+}
+.xieyi{
+    line-height: 32px; 
+    color: #0c82d9;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    text-align: center;
+    font-family: "Microsoft Yahei", sans-serif;
+    font-size: 14px;
+}
+.btn_w{
+    width: 320px;
+}
+.btn{
+    border: 0;
+    width: 320px;
+    height: 30px;
+    line-height: 30px;
+    background-color: #0c82d9;
+    color: #fff;
+    font-size: 15px;
+
+}
